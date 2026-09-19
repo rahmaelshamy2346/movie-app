@@ -6,7 +6,10 @@ const router = createBrowserRouter([
     path: '/',
     element: (
       <Layout>
-        <h1>Home</h1>
+        <div className="home-preview">
+          <h1>Welcome to Movie App</h1>
+          <p>Discover movies, TV shows, and more.</p>
+        </div>
       </Layout>
     ),
   },
